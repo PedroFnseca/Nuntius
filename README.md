@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Olá eu sou o Nuntius 😁
 
-## Getting Started
+> #### Uma rede social para Desenvolvedores e Programadores
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="center">
+  <img alt="author" src="https://img.shields.io/badge/author-Pedro%20Fonseca-blue">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PedroFnseca/Nuntius">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Como ele surgiu? 🦖
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### O Nuntius nasceu através de uma curiosidade que obtive de como funcionava um chat online, em sua [primeira versão](https://github.com/PedroFnseca/Chat-Online) nos seus primeiros testes verifiquei que o chat interpretava código HTML por conta da maneira que foi feito, e esse é o seu maior segredo 🤫. Posteriormente me deu diversas ideias de que eu poderia mais com esse chat, e assim surgiu, o Nuntius.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br>
 
-## Learn More
+## Como ele será feito? 🚀
 
-To learn more about Next.js, take a look at the following resources:
+#### Para criar o nuntius resolvi utilizar uma nova tecnologia que eu tinha bastante curiosidade sobre como funcionava, o [Next.js](https://nextjs.org). Além de utilizar bibliotecas como [socket.io](https://socket.io). E para armazenar os dados, utilizarei o [MongoDB](https://www.mongodb.com) para as mensagens e o [Mysql](https://www.mysql.com) para os usuários.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Logo && Nome 🎨
 
-## Deploy on Vercel
+#### O logo do Nuntius foi feito pela [Camila](https://github.com/Camila-Piovesan), ele segue o padrão de cores da sua [primeira versão](https://github.com/PedroFnseca/Chat-Online). Ele teve como inspiração as tags HTML, e o nome Nuntius vem do latim e significa mensageiro.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="center">
+<!-- Imagem aqui -->
+</p>
