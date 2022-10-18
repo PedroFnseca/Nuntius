@@ -6,8 +6,8 @@
 
 <p align="center">
   <img alt="author" src="https://img.shields.io/badge/author-Pedro%20Fonseca-blue">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PedroFnseca/Nuntius">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PedroFnseca/Nuntius?color=blue">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
   <img alt="deploy-vercel" src="https://img.shields.io/badge/deploy-vercel-blue">
 </p>
 
