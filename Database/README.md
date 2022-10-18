@@ -1,4 +1,4 @@
-# Banco de dados do Nutius 💻
+# Bancos de dados do Nutius 💻
 
 <br>
 
@@ -8,25 +8,19 @@
 
 <br>
 
-# Banco de dados relacional 📊
+# Banco de dados relacional 🐘
 
 ### O banco de dados relacional irá armazenar os dados de usuário. Será utilizado o PostgreSQL.
 
----
-
-# Tabelas do banco do PostgreSQL 📋
-
-- ### Tabela de usuários 📝
-
 <br>
 
-# Banco de dados não relacional 📊
+# Banco de dados não relacional 🐍
 
 ### Para os dados não relacionais como conversas, alguns dados de foruns, etc. Será utilizado o MongoDB.
 
----
+<br>
 
-# Coleções do MongoDB 📚
+> ## Coleções do MongoDB 📚
 
 - ### Conversas 🗣️
 - ### Foruns 📝
