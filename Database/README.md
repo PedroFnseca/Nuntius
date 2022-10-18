@@ -2,39 +2,39 @@
 
 <br>
 
-## Quais são os bancos de dados utilizados? 🤔
+# Quais são os bancos de dados utilizados? 🤔
 
 ### O Nuntius irá utilizar dois tipos de banco de dados, um para dados de usuários e outro para conversas e outros dados não relacionais.
 
 <br>
 
-## Banco de dados relacional 📊
+# Banco de dados relacional 📊
 
-#### O banco de dados relacional irá armazenar os dados de usuário. Será utilizado o PostgreSQL.
-
----
-
-## Tabelas do banco do PostgreSQL 📋
-
-- #### Tabela de usuários 📝
-
-<br>
-
-## Banco de dados não relacional 📊
-
-#### Para os dados não relacionais como conversas, alguns dados de foruns, etc. Será utilizado o MongoDB.
+### O banco de dados relacional irá armazenar os dados de usuário. Será utilizado o PostgreSQL.
 
 ---
 
-## Coleções do MongoDB 📚
+# Tabelas do banco do PostgreSQL 📋
 
-- #### Conversas 🗣️
-- #### Foruns 📝
-- #### Amizades 🤝
+- ### Tabela de usuários 📝
 
 <br>
 
-#### Coleção de conversa 🗣️
+# Banco de dados não relacional 📊
+
+### Para os dados não relacionais como conversas, alguns dados de foruns, etc. Será utilizado o MongoDB.
+
+---
+
+# Coleções do MongoDB 📚
+
+- ### Conversas 🗣️
+- ### Foruns 📝
+- ### Amizades 🤝
+
+<br>
+
+## Coleção de conversa 🗣️
 
 ```json
 {
@@ -56,7 +56,7 @@
 }
 ```
 
-### Coleleção de foruns 📝
+## Coleleção de foruns 📝
 
 ```json
 {
@@ -96,7 +96,7 @@
 }
 ```
 
-### Coleção de amizades 🤝
+## Coleção de amizades 🤝
 
 ```json
 {
