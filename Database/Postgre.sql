@@ -27,7 +27,7 @@ CREATE PROCEDURE insert_user(
 )
 BEGIN
   INSERT INTO users(user_name, user_email, user_password, user_phone, user_birthdate)
-  VALUES(user_name, user_email, user_password, user_phone, user_birthdate);
+    VALUES(user_name, user_email, user_password, user_phone, user_birthdate);
 END;
 
 ---------------------------------------------------------------------------------------
@@ -42,7 +42,10 @@ CREATE PROCEDURE update_user(
   IN user_birthdate DATE
 )
 BEGIN
-  UPDATE users SET user_name = user_name, user_email = user_email, user_password = user_password, user_phone = user_phone, user_birthdate = user_birthdate WHERE user_id = user_id;
+  UPDATE users SET 
+  user_name = user_name, user_email = user_email, user_password = user_password, 
+  user_phone = user_phone, user_birthdate = user_birthdate 
+    WHERE user_id = user_id;
 END;
 
 ---------------------------------------------------------------------------------------
