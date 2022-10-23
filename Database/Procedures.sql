@@ -1,18 +1,3 @@
-DROP IF EXISTS Nuntius_db;
-
-CREATE DATABASE Nuntius_db;
-
-# Tabela para armazenamento de dados de usuários
-
-CREATE TABLE users(
-  user_id AUTO_INCREMENT PRIMARY KEY,
-  user_name VARCHAR(100) NOT NULL,
-  user_email VARCHAR(100) NOT NULL,
-  user_password VARCHAR(30) NOT NULL,
-  user_phone VARCHAR(15) NOT NULL,
-  user_birthdate DATE NOT NULL,
-)
-
 ##                                  PROCEDURES 
 
 ---------------------------------------------------------------------------------------
@@ -50,22 +35,16 @@ END;
 
 ---------------------------------------------------------------------------------------
 
-# Para deletar um usuário
-CREATE PROCEDURE delete_user(
-  IN user_id INT
+# Para fazer login
+
+CREATE PROCEDURE login(
+  IN user_email VARCHAR(100),
+  IN user_password VARCHAR(30)
 )
 BEGIN
-  DELETE FROM users WHERE user_id = user_id;
+  SELECT user_id, user_name FROM users
+    WHERE user_email = user_email AND user_password = user_password;
 END;
 
 ---------------------------------------------------------------------------------------
 
-# Para buscar um usuário
-CREATE PROCEDURE select_user(
-  IN user_id INT
-)
-BEGIN
-  SELECT * FROM users WHERE user_id = user_id;
-END;
-
----------------------------------------------------------------------------------------
