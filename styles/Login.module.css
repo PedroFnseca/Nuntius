@@ -46,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .input{
@@ -97,6 +98,15 @@
   color: var(--azul);
   cursor: pointer;
   transition: all 0.2s;
+}
+
+.icon_container{
+  color: var(--azul);
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 450px) {

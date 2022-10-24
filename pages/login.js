@@ -1,8 +1,13 @@
 import Styles from '../styles/Login.module.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import {AiFillEyeInvisible, AiFillEye} from 'react-icons/ai';
+import { useState } from 'react';
 
 export default function Index() {
+
+  const [showPassword, setShowPassword] = useState("password");
+  const [icon, setIcon] = useState(<AiFillEyeInvisible/>);
 
   function handleLogin(e) {
     e.preventDefault();
@@ -35,12 +40,24 @@ export default function Index() {
               </Form.Group>
               <Form.Group controlId="formBasicPassword">
                 <Form.Control 
-                  type="password" 
+                  type={showPassword}
                   placeholder="Senha" 
                   autoComplete="off" 
                   className={Styles.input}
                   onKeyPress={handleKeyPress}
+                  showPassword={showPassword}
                   />
+                  <div className={Styles.icon_container} onClick={() => {
+                    if (showPassword === "password") {
+                      setShowPassword("text");
+                      setIcon(<AiFillEye/>);
+                    } else {
+                      setShowPassword("password");
+                      setIcon(<AiFillEyeInvisible/>);
+                    }
+                  }}>
+                    <span>{icon}</span>
+                  </div>
               </Form.Group>
             </div>
             <div className={Styles.button_container}>
