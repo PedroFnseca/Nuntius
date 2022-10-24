@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  position: relative;
 }
 
 .login{
@@ -11,13 +12,15 @@
   width: 25rem;
   height: 80vh;
   border-radius: 30px;
-  padding: 1rem;
   flex-direction: column;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .logo_container{
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 }
 
 #logo{
@@ -46,12 +49,12 @@
 }
 
 .input{
-  width: 100%;
   height: 2rem;
+  width: 20rem;
   border: 2px solid var(--cinza);
   border-radius: 5px;
   padding: 1rem;
-  margin: 0.5rem;
+  margin-top: 1.5rem;
   font: 400 1.2rem Roboto, sans-serif;
 }
 
@@ -69,7 +72,7 @@
 }
 
 .button{
-  font: 600 1rem "Roboto", sans-serif;
+  font: 900 1.1rem "Roboto", sans-serif;
   border: 2px solid var(--azul);
   color: var(--azul);
 }
@@ -85,7 +88,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  font: 600 1rem "Roboto", sans-serif;
+  font: 900 1.2rem "Roboto", sans-serif;
   margin-top: 2rem;
   transition: all 0.2s;
 }
@@ -97,8 +100,27 @@
 }
 
 @media screen and (max-width: 450px) {
+  .container{
+    height: 90vh;
+  }
+
   .login{
-    width: 94%;
+    width: 25rem;
+    height: 70vh;
+  }
+
+  .button_container{
+    margin-top: 5rem;
+  }
+
+  .button, .link{
+    font: 900 1.2rem "Roboto", sans-serif;
+  }
+
+  .input{
+    padding: .5rem;
+    height: 2.5rem;
+    font: 400 1.3rem Roboto, sans-serif;
   }
 }
 
