@@ -1,9 +1,18 @@
+:root{
+  --azul: #1E1E2C;
+  --azul-escuro: #0D0D16;
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --cinza: #C4C4C4;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--azul);
 }
 
 * {
